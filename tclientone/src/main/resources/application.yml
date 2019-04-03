@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: eureka-client
+server:
+  port: 7101
+
+eureka:
+  client:
+     serviceUrl:
+        defaultZone: http://localhost:7001/eureka/ #ÅäÖÃeureka·şÎñÆ÷µØÖ·
+
+
+
+
+
